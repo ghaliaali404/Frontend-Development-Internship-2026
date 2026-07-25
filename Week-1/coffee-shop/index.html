@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amber Cup | Artisanal Coffee Shop</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body class="bg-amber-50/50 text-stone-800 antialiased font-sans min-h-screen">
+
+  <!-- NAVIGATION BAR -->
+  <header class="w-full max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+    <!-- Brand Logo -->
+    <div class="flex items-center gap-2">
+      <span class="text-3xl">☕</span>
+      <span class="text-3xl font-serif font-semibold tracking-wide text-amber-900">Amber Cup</span>
+    </div>
+
+    <!-- Responsive Nav Links (Desktop) -->
+    <nav class="hidden md:flex items-center gap-8 text-base sm:text-lg font-bold text-stone-600">
+      <a href="#home" class="hover:text-amber-800 transition-colors">Home</a>
+      <a href="#menu" class="hover:text-amber-800 transition-colors">Menu</a>
+      <a href="#about" class="hover:text-amber-800 transition-colors">About Us</a>
+      <a href="#contact" class="hover:text-amber-800 transition-colors">Contact</a>
+    </nav>
+
+    <!-- Nav CTA Button -->
+    <a href="#order" class="hidden sm:inline-block bg-amber-800 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-amber-900 transition-all shadow-sm hover:shadow-md">
+      Find a Shop
+    </a>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main class="max-w-7xl mx-auto px-6 py-12 md:py-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      
+      <!-- Left Content Column -->
+      <div class="space-y-6 text-center md:text-left">
+        <span class="inline-block bg-amber-100 text-amber-900 text-xs font-bold tracking-wider px-3.5 py-1.5 rounded-full uppercase">
+          Freshly Roasted Daily
+        </span>
+        
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-stone-900 leading-tight">
+          Crafted Coffee, <br class="hidden sm:inline" />
+          <span class="text-amber-800">Unforgettable</span> Days.
+        </h1>
+        
+        <p class="text-stone-600 text-base sm:text-lg max-w-lg mx-auto md:mx-0 leading-relaxed">
+          Experience handcrafted specialty espresso and artisanal pastries sourced directly from ethical, sustainable coffee farms around the globe.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 pt-2">
+          <a href="#order" class="w-full sm:w-auto bg-amber-800 text-white text-center px-8 py-3.5 rounded-full font-semibold hover:bg-amber-900 transition-all shadow-md hover:shadow-lg">
+            Order Now
+          </a>
+          <a href="#menu" class="w-full sm:w-auto border border-stone-300 text-stone-700 text-center px-8 py-3.5 rounded-full font-semibold hover:bg-stone-100 transition-all">
+            Explore Menu
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Image Column -->
+      <div class="relative flex justify-center">
+        <div class="absolute -inset-4 bg-amber-200/50 rounded-3xl blur-2xl -z-10"></div>
+        <img 
+          src="shop.png" 
+          alt="Coffee Shop Hero Image" 
+          class="w-full max-w-md lg:max-w-lg h-96 sm:h-[450px] object-cover rounded-2xl shadow-xl"
+        />
+      </div>
+
+    </div>
+  </main>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
