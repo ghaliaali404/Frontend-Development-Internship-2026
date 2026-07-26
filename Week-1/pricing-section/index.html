@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaaS Pricing Plans</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body class="bg-gradient-to-br from-slate-950 via-indigo-950 to-purple-950 text-slate-100 min-h-screen flex flex-col justify-center items-center py-16 px-4">
+    
+    <!-- Header Section -->
+    <div class="text-center max-w-2xl mb-12">
+      <span class="text-indigo-400 font-semibold tracking-wider uppercase text-sm">Flexible Pricing</span>
+      <h1 class="text-4xl sm:text-5xl font-extrabold mt-2 text-white">Choose the Right Plan for Your Business</h1>
+      <p class="text-slate-400 mt-4 text-base sm:text-lg">Simple, transparent pricing. No hidden fees.</p>
+    </div>
+
+    <!-- Pricing Cards Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full items-stretch">
+      
+      <!-- 1. Starter Plan -->
+      <div class="bg-indigo-950/40 backdrop-blur-sm rounded-2xl p-8 border border-purple-800/400 flex flex-col justify-between hover:-translate-y-2 hover:border-violet-500 hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300">
+        <div>
+          <h3 class="text-xl font-bold text-white">Starter</h3>
+          <p class="text-slate-400 text-sm mt-1">Perfect for individuals and side projects.</p>
+          <div class="my-6">
+            <span class="text-4xl font-extrabold text-white">$19</span>
+            <span class="text-slate-400">/month</span>
+          </div>
+          <ul class="space-y-4 text-slate-300 text-sm mb-8">
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> Up to 5 Projects
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> Basic Analytics
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> Community Support
+            </li>
+            <li class="flex items-center gap-3 text-slate-500 line-through">
+              <span>✕</span> Custom Domain Integration
+            </li>
+          </ul>
+        </div>
+        <button class="w-full py-3 px-4 rounded-xl font-semibold border border-indigo-500/50 bg-indigo-500/10 hover:bg-indigo-500 hover:text-white text-indigo-200 transition-all cursor-pointer">
+          Get Started
+        </button>
+      </div>
+
+      <!-- 2. Pro Plan (Highlighted) -->
+      <div class="bg-indigo-950/40 backdrop-blur-sm rounded-2xl p-8 border-2 border-indigo-500 flex flex-col justify-between relative hover:-translate-y-2 hover:shadow-2xl hover:shadow-indigo-500/20 transition-all duration-300 lg:-translate-y-4">
+        <!-- Popular Badge -->
+        <span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
+          Most Popular
+        </span>
+        <div>
+          <h3 class="text-xl font-bold text-white">Pro</h3>
+          <p class="text-slate-400 text-sm mt-1">Best for small teams and growing businesses.</p>
+          <div class="my-6">
+            <span class="text-4xl font-extrabold text-white">$49</span>
+            <span class="text-slate-400">/month</span>
+          </div>
+          <ul class="space-y-4 text-slate-300 text-sm mb-8">
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> Unlimited Projects
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> Advanced Analytics
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> Priority Email Support
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> Custom Domain Integration
+            </li>
+          </ul>
+        </div>
+        <button class="w-full py-3 px-4 rounded-xl font-semibold bg-indigo-600 hover:bg-indigo-500 text-white transition-colors shadow-lg shadow-indigo-600/30 cursor-pointer">
+          Get Started
+        </button>
+      </div>
+
+      <!-- 3. Enterprise Plan -->
+      <div class="bg-indigo-950/40 backdrop-blur-sm rounded-2xl p-8 border border-purple-800/400 flex flex-col justify-between hover:-translate-y-2 hover:border-violet-500 hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-300">
+        <div>
+          <h3 class="text-xl font-bold text-white">Enterprise</h3>
+          <p class="text-slate-400 text-sm mt-1">For enterprise teams needing custom solutions.</p>
+          <div class="my-6">
+            <span class="text-4xl font-extrabold text-white">$99</span>
+            <span class="text-slate-400">/month</span>
+          </div>
+          <ul class="space-y-4 text-slate-300 text-sm mb-8">
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> All Pro Features
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> Dedicated Account Manager
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> 24/7 Phone & Chat Support
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400 font-bold">✓</span> Custom SLA Guarantees
+            </li>
+          </ul>
+        </div>
+        <button class="w-full py-3 px-4 rounded-xl font-semibold border border-indigo-500/50 bg-indigo-500/10 hover:bg-indigo-500 hover:text-white text-indigo-200 transition-all cursor-pointer">
+          Get Started
+        </button>
+      </div>
+
+    </div>
+  </body>
+</html>
